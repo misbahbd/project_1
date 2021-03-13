@@ -1,0 +1,100 @@
+/* default css start */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: auto !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: text-1;
+    src: url(../fonts/ufonts.com_pfagorasanspro-xthin.ttf);
+}
+/* @font-face{
+    font-family: text-1;
+    src: url(../fonts/ufonts.com_pfagorasanspro-xthin.ttf);
+} */
+
+/* @font-face {
+    font-family: text-2;
+    src: url(../fonts/sfburlingtonscript-bold.ttf);
+} */
+
+.clr {
+    clear: both;
+}
+
+
+/* default css end */
+/* advantage css start */
+
+.advantage {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #f3f0e7;
+}
+
+.advantage_area {
+    text-align: center;
+}
+
+.head_text {
+    padding-bottom: 65px;
+}
+
+.gallery{
+    display: inline-block;
+    /* padding-left: 45px; */
+    float: left;
+    width: 300px;
+    /* box-sizing: border-box; */
+    text-align: center;
+    margin-left: 74px;
+}
+.gallery img{
+    height: 270px;
+    width: auto;
+    margin: auto;
+}
+.gallery p {
+    padding-top: 23px;
+}
+/* #gal_1_box{
+    margin: 8px 0px 0px 98px;
+} */
+.head_text h1 span{
+    font-size: 150%;
+}
+.btnn {
+    padding: 20px;
+    margin-top: 61px;
+    margin-left: 119px;
+    font-size: 16px;
+    border: none;
+    background: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: revert;
+    transition: all cubic-bezier(0.1, 1.04, 1, 1) 0.5s;
+    font-weight: bold;
+}
+.btnn:hover{
+    background: yellow;
+    color: teal;
+}
+
+
+
+
+/* advantage css end */
